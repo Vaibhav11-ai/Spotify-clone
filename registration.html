@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create an Account</title>
+  </head>
+  <body>
+    <nav aria-label="Main menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="registration.html" aria-current="page">Register</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1>Create an Account</h1>
+      <form>
+        <p>
+          <label for="name">Name</label><br />
+          <input id="name" name="name" type="text" autocomplete="name" required />
+        </p>
+        <p>
+          <label for="email">Email</label><br />
+          <input id="email" name="email" type="email" autocomplete="email" required />
+        </p>
+        <p>
+          <label for="password">Password</label><br />
+          <input id="password" name="password" type="password" autocomplete="new-password" required />
+        </p>
+        <p>
+          <label for="confirm-password">Confirm password</label><br />
+          <input id="confirm-password" name="confirm-password" type="password" autocomplete="new-password" required />
+        </p>
+        <button type="submit">Register</button>
+      </form>
+    </main>
+  </body>
+</html>
